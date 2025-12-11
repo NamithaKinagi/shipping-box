@@ -1,3 +1,32 @@
+Shipping Box Calculator
+
+A responsive single-page React application for calculating the shipping cost for boxes to specific countries worldwide from India.
+
+Features
+View A — Add Box Form
+~Receiver name (text input)
+~Weight in kilograms (number input)
+~Box color (color picker)
+~Destination country (dropdown)
+Sweden — 7.35 INR
+China — 11.53 INR
+Brazil — 15.63 INR
+Australia — 50.09 INR
+~Save button to store the box locally
+
+View B — List of Boxes
+Displays a table with:
+Receiver name
+Weight (kg)
+Box color (actual colored box)
+Destination country
+Calculated shipping cost (formatted in INR)
+
+Other Features
+Fully responsive UI
+Navigation through a Navbar
+Local persistence using localStorage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
